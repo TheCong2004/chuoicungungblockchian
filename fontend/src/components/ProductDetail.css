@@ -1,0 +1,91 @@
+/* src/components/ProductDetail.css */
+.product-detail-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product-detail-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.back-button {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.loading-message {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.product-details {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.product-details-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.product-detail-item {
+  margin-bottom: 10px;
+}
+
+.product-detail-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.product-detail-value {
+  color: #333;
+}
+
+.qr-code-container {
+  margin-top: 10px;
+}
+
+.qr-code-info {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.supply-chain-steps {
+  margin-top: 20px;
+}
+
+.steps-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.steps-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.step-item {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
