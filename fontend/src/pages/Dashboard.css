@@ -328,6 +328,7 @@
   display: flex;
   align-items: center;
   font-size: 0.95rem;
+  color: white;
 }
 
 .error-message::before {
@@ -339,13 +340,14 @@
 /* Success message */
 .success-message {
   background-color: rgba(76, 175, 80, 0.1);
-  color: var(--success-color);
+  /* color: var(--success-color); */
   padding: 0.8rem 1rem;
   border-radius: 8px;
   margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
   font-size: 0.95rem;
+  color: white;
 }
 
 .success-message::before {
